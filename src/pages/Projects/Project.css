@@ -1,0 +1,124 @@
+.project
+{
+    margin: 50px 0;
+    margin-left:130px;
+
+
+}
+.project hr{
+    color:#138781;
+    width:400px;
+    margin:10px auto;
+    }
+    .project h2{
+        color:green;
+        font-weight:bold;
+        font-size:40px;
+    
+    }
+    
+    #ads
+    {
+        margin: 30px 0px 30px 0px;
+        
+    }
+   #ads .disp .card
+   {
+    display:flex;
+   }
+   .card .card-notify-badge
+    {
+        position:absolute;
+        left:-10px;
+        top:-20px;
+        background:#f29f67;
+        text-align:center;
+        border-radius:30px;
+        padding:5px 10px;
+        font-size:14px;
+        color:black;
+        
+
+    }
+    .project .card img{
+        height:400px;
+        width:100%;
+
+    }
+    .project .card:hover{
+     background-color:white;
+     border-radius:4px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     color:black;
+     transition:all 0.2 s ease;
+     
+     
+     
+    }
+    .card-detail-badge
+    {
+        background-color:green;
+        text-align:center;
+        border-radius:30px;
+        padding:0 12px;
+        color:black;
+        font-size:14px;
+
+    }
+    .card-image-overly span
+    {
+        display:inline-block;
+        margin-left:5px;
+        color:white;
+
+    }
+    .ad-btn
+    {
+        text-transform:uppercase;
+        display:block;
+        width:150px;
+        height:40px;
+        background-color: #138781;
+        color:white;
+        border-radius:80px;
+        font-size:1rem;
+        line-height:35px;
+        text-decoration:none;
+        margin:20px auto 20px auto;
+        overflow:hidden;
+        position:relative;
+        text-align:center;
+
+    }  
+    .ad-btn:hover{
+        background-color: #fff;
+        color:#138781;
+        background:transparent;
+        border:3px solid #138781;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     transition:all 0.5s ease;
+
+
+    }
+    @media (max-width:600px)
+{
+    .project
+    {
+        margin:0;
+        padding:0;
+        margin-top:50px;
+
+    }
+    .project hr{
+        width:280px;
+    }
+    .project .card{
+        margin-top:30px;
+    }
+    .project h2{
+        
+        font-size:30px;
+    
+    }
+}
+    

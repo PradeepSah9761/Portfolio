@@ -1,0 +1,44 @@
+.education {
+    margin: 50px 0;
+    margin-left: 130px;
+    background:rgba(0, 0, 0, 0.041)
+
+
+}
+
+.education hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2 {
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.vertical-timeline-element-title
+{
+    color:green;
+    font-weight:bold;
+}
+@media (max-width:600px)
+{
+    .education
+    {
+        margin:0;
+        padding:0;
+        margin-top:30px;
+
+    }
+    .education h2{
+        padding-top:20px;
+        font-size:30px;
+    }
+   .education hr{
+    width: 280px;
+    margin-bottom: 10px;
+   }
+  
+}
